@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(269.82deg, #010101 0.73%, #101213 99.03%);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 2 2 auto;
+    min-height: 2px;
+    padding: 1.7rem;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #161515;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+  }
+  body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  }
+.greeting {
+    margin-top: 20px;
+    margin-left: 450px;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+
+.page-title {
+    color: midnightblue;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+#want-play {
+    background-color: lawngreen;
+    color: darkblue;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+#want-play:hover{
+    padding: 15px 15px;
+}
+
+.modal-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27, 29, 31, 0.7);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
